@@ -1,9 +1,57 @@
+@font-face {
+    font-family: "myriad pro regular";
+    src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
 html{
     scroll-behavior: smooth;
+    background-color: purple;
 }
 #nav-content > ul > li, #socials > i {
     transition: all 0.2s ease-in-out;
 }
 #nav-content > ul > li:hover, #socials > i:hover {
-    background: red;
+    border-bottom:#d21242  solid 2px;
+}
+#nav-content > ul {
+    display: flex;
+}
+#nav-content > ul > li{
+    list-style: none;
+    font-family: "myriad pro regular";
+    margin:0 1.5vw;
+    border-bottom: solid 2px transparent;
+    /* height: 10vh; */
+    padding: 39px 0 30px 0;
+}
+#nav-content > ul > li > a{
+    text-decoration: none;
+    
+    color: white;
+
+    height: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 13.63%;
+    background-color: rgba(0, 0, 0, 0.199);
+    backdrop-filter: blur(5px);
+    height:10vh ;
+
+}
+#nav-content {
+    display: flex;
+    align-items: center;
+    
+    
+}
+#socials > i {
+    padding: 0 0.91vw;
 }
