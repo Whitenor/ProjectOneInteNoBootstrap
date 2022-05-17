@@ -20,21 +20,20 @@ html{
 }
 #nav-content > ul {
     display: flex;
+    height: 100%;
 }
 #nav-content > ul > li{
     list-style: none;
     font-family: "myriad pro regular";
     margin:0 1.5vw;
     border-bottom: solid 2px transparent;
-    /* height: 10vh; */
-    padding: 39px 0 30px 0;
+    height: 100%;
+    display:flex;
+    align-items: center;
 }
 #nav-content > ul > li > a{
     text-decoration: none;
-    
     color: white;
-
-    height: 100%;
 }
 nav{
     display: flex;
@@ -49,8 +48,7 @@ nav{
 #nav-content {
     display: flex;
     align-items: center;
-    
-    
+    height: 100%;
 }
 #socials > i {
     padding: 0 0.91vw;
