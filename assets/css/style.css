@@ -52,4 +52,9 @@ nav{
 }
 #socials > i {
     padding: 0 0.91vw;
+    color: white;
+}
+
+#logo {
+    color: white;
 }
