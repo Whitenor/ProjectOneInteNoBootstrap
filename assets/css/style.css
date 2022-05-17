@@ -30,8 +30,23 @@ header > div, header > i {
     font-size:153px;
     margin-bottom: 17.5vh;
     margin-top: 45vh ;
+    color: #f5f5f5;
 }
-
 #labelCTA{
-    font-family: "Open Sans"
+    font-family: "Open Sans";
+    color: white;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.fa-angle-down{
+    font-size: 20px;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 50px;
 }
