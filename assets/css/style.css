@@ -6,8 +6,8 @@
 } 
 
 @font-face{
-    font-family: 'Gotham Bold';
-    src: url('../fonts/Gotham-Bold.otf')
+    font-family: 'Gotham Light';
+    src: url('../fonts/Gotham-Light.otf')
 }
 *{
     margin: 0;
@@ -25,7 +25,7 @@ header > div, header > i {
     color: #fff;
 }
 #creatives{
-    font-family: 'Gotham Bold';
+    font-family: 'Gotham Light';
     font-weight: 700;
     font-size:153px;
     margin-bottom: 17.5vh;
