@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+#nav-content > ul > li, #socials > i {
+    transition: all 0.2s ease-in-out;
+}
+#nav-content > ul > li:hover, #socials > i:hover {
+    background: red;
+}
