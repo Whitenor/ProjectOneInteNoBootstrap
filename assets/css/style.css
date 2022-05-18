@@ -59,13 +59,33 @@ header > div, header > i {
     justify-content: center;
     align-items: center;
 }
+#about > span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh 0 10vh 0;
+}
+#about > span > h3{
+    position: absolute;
+    font-size: 247px;
+    opacity: 30%;
+    color: #f5f5f5;
+}
+#about > span >h2{
+    z-index: 2;
+}
 #about > div{
     display: flex;
     padding: 13.63vh;
+    min-height: 30vh;
 }
 #about > div > div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+#about > div >div > p{
+    width: 60%;
 }
