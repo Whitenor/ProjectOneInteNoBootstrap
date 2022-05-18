@@ -7,7 +7,7 @@
 
 @font-face{
     font-family: 'Gotham Light';
-    src: url('../fonts/Gotham-Light.otf')
+    src: url('../fonts/gotham/Gotham-Light.otf')
 }
 *{
     margin: 0;
@@ -34,7 +34,7 @@ header > div, header > i {
     color: #f5f5f5;
 }
 #labelCTA{
-    font-family: "Open Sans";
+    font-family: "Open Sans" , sans-serif;
     color: white;
     font-size: 13px;
     line-height: 22px;
@@ -50,4 +50,22 @@ header > div, header > i {
     align-items: center;
     border: solid 1px white;
     border-radius: 50px;
+}
+#about{
+    min-height: 80vh;
+    background: #D21242;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about > div{
+    display: flex;
+    padding: 13.63vh;
+}
+#about > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
