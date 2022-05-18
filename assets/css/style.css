@@ -73,3 +73,13 @@ nav{
     box-shadow: 12px 12px 0px -3px #F5F5F5
 }
 
+#news > div{
+    display: flex;
+}
+#news > div > *{
+    width: 50%;
+}
+#news > div:nth-child(2){
+    flex-direction: row-reverse;
+}
+
