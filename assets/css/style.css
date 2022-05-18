@@ -98,6 +98,7 @@ header > div, header > i {
     justify-content: space-evenly;
     min-height: 30vh;
     flex-wrap: wrap;
+    gap: 40px;
 }
 #about > div > div{
     display: flex;
@@ -157,6 +158,7 @@ header > div, header > i {
     font-family: 'Gotham Light', sans-serif;
     line-height: 37px;
     font-size: 30px;
+    text-align: center;
 }
 #blog > div:nth-child(3){
     width: 100%;
@@ -185,7 +187,9 @@ header > div, header > i {
 
 
 @media screen and (max-width: 1024px) {
-
+    #creatives{
+        font-size: 75px;
+    }
 }
 @media screen and (max-width: 500px) {
 
