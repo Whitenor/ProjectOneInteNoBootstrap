@@ -6,9 +6,19 @@
     font-family: "Roboto Bold";
     src: url("../fonts/Roboto-Bold.ttf");
 }
+@font-face {
+    font-family: "gotham medium";
+    src: url("../fonts/Gotham-Light.otf")
+}
+@font-face {
+    font-family: "gotham book";
+    src: url("../fonts/GothamBook.ttf")
+}
+
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -46,6 +56,10 @@ nav{
     background-color: rgba(0, 0, 0, 0.199);
     backdrop-filter: blur(5px);
     height:10vh ;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.281);
+    position: fixed;
+    top: 0;
+    width: 100vw;
 
 }
 #nav-content {
@@ -84,12 +98,39 @@ height: 100%;
     box-shadow: 12px 12px 0px -3px #F5F5F5
 }
 
+#news{
+    margin-top: 10vh;
+}
+
 #news > div{
     display: flex;
 }
+#news > div > div{
+    padding-top: 86px;
+    padding-right: 70px;
+}
+
+#news > div > div > h3{
+    font-family: "gotham book";
+    padding-left: 106px;
+}
+
+.titre{
+    padding-left: 106px;
+
+}
+
+.texte{
+    margin-top:5vh;
+    margin-left: 106px;
+    font-family: "gotham medium";
+    text-align: justify;
+}
+
 #news > div > *{
     width: 50%;
 }
+
 #news > div:nth-child(2){
     flex-direction: row-reverse;
 }
