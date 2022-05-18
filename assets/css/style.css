@@ -108,6 +108,7 @@ height: 100%;
 #news > div > div{
     padding-top: 86px;
     padding-right: 70px;
+    
 }
 
 #news > div > div > h3{
@@ -115,23 +116,46 @@ height: 100%;
     padding-left: 106px;
 }
 
-.titre{
+.titre1{
     padding-left: 106px;
+    color: white;
 
 }
+.titre2{
+    padding-left: 106px;
+    color: black;
+}
 
-.texte{
+.texte1{
     margin-top:5vh;
     margin-left: 106px;
     font-family: "gotham medium";
     text-align: justify;
+    color: white;
+}
+
+.texte2{
+    margin-top:5vh;
+    margin-left: 106px;
+    font-family: "gotham medium";
+    text-align: justify;
+    color: black;
 }
 
 #news > div > *{
     width: 50%;
 }
 
+.groupe1{
+    background-color: #222222 ;
+}
+
+.groupe2{
+    background-color:#F3F3F3;
+}
+
 #news > div:nth-child(2){
     flex-direction: row-reverse;
 }
+
 
