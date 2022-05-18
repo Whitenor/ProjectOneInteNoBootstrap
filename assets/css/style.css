@@ -17,6 +17,8 @@
     margin: 0;
     padding: 0;
 }
+
+/* ******************************** Header ******************************** */
 header{
     min-height:100vh;
     background: url('../img/backgroundHeader.png') no-repeat border-box;
@@ -55,6 +57,11 @@ header > div, header > i {
     border: solid 1px white;
     border-radius: 50px;
 }
+
+
+/* ****************************** About ********************************** */
+
+
 #about{
     min-height: 80vh;
     background: #D21242;
@@ -105,4 +112,23 @@ header > div, header > i {
     margin: 7vh 0 3vh 0;
     font-size: 18px;
     line-height: 36px;
+}
+
+
+
+/* ******************************** Blog ******************************** */
+#blog{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#blog > div > h3 {
+    color: #D21242;
+    font-family: 'Roboto', sans-serif;
+    font-size: 247px;
+    line-height: 211px;
+    font-weight: 900;
+    text-align: center;
 }
