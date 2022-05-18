@@ -18,7 +18,7 @@ html{
 #nav-content > ul > li, #socials > i {
     transition: all 0.2s ease-in-out;
 }
-#nav-content > ul > li:hover, #socials > i:hover {
+#nav-content > ul > li:hover, #socials > div > i:hover {
     border-bottom:#d21242  solid 2px;
 }
 #nav-content > ul {
@@ -53,9 +53,20 @@ nav{
     align-items: center;
     height: 100%;
 }
-#socials > i {
+#socials {
+display: flex;
+height: 100%;
+}
+#socials > div {
+    height: 100%;
+}
+#socials > div > i  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0 0.91vw;
     color: white;
+    height: 100%;
 }
 
 #logo {
