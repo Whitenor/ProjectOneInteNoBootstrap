@@ -164,6 +164,7 @@ header > div, header > i {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 #blog > div:nth-child(3) > div{
     width: 270px;
