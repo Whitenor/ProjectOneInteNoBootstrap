@@ -157,5 +157,29 @@ height: 100%;
 #news > div:nth-child(2){
     flex-direction: row-reverse;
 }
+#action{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 40vh;
+    background-color:#D21242;
+    padding: 0 13.63vw;
+}
+#action > div {
+    display: flex;
+    width: 50vw;
+    padding-right: 200px;
+    padding-bottom: 75px;
+    align-items: center;
+}
+
+#action > div > p {
+    margin-left: 21px;
+    color: white;
+    font-family: "gotham medium";
+    font-size: 12px;
+}
+
+
 
 
