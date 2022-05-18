@@ -182,3 +182,11 @@ header > div, header > i {
 #blog > :nth-child(3) > div > p {
     text-align: center;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 500px) {
+
+}
