@@ -168,9 +168,12 @@ height: 100%;
 #action > div {
     display: flex;
     width: 50vw;
-    padding-right: 200px;
+    padding-right: 100px;
     padding-bottom: 75px;
     align-items: center;
+}
+#action > div:nth-child(2){
+    padding-right: 0;
 }
 
 #action > div > p {
@@ -180,6 +183,18 @@ height: 100%;
     font-size: 12px;
 }
 
+footer {
+    display: flex;
+    width: 100%;
+    padding: 0 13.63%;
+    background-color: #242424;
+    align-items: center;
+    height: 20vh;
+    justify-content: space-between;
+}
 
+footer > p {
+    color: white;
+}
 
 
