@@ -161,7 +161,7 @@ header > div, header > i {
 #blog > div:nth-child(3){
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -172,6 +172,7 @@ header > div, header > i {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 25px;
 }
 #blog > div:nth-child(3) > div >  img {
     width: 100%;
