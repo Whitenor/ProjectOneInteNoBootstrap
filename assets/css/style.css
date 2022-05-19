@@ -16,6 +16,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* ******************************** Header ******************************** */
@@ -28,7 +29,7 @@ header{
     align-items: center;
     justify-content: flex-start;
 }
-header > div, header > i {
+header > div {
     color: #fff;
 }
 #creatives{
@@ -47,8 +48,12 @@ header > div, header > i {
     text-align: center;
     margin-bottom: 2vh;
 }
+header > a {
+    text-decoration: none;
+}
 .fa-angle-down{
     font-size: 20px;
+    color: #f5f5f5;
     width: 65px;
     height: 65px;
     display: flex;
