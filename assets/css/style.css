@@ -81,6 +81,7 @@ height: 100%;
     padding: 0 0.91vw;
     color: white;
     height: 100%;
+    border: solid 2px transparent;
 }
 
 #logo {
@@ -180,7 +181,7 @@ height: 100%;
     margin-left: 21px;
     color: white;
     font-family: "gotham medium";
-    font-size: 12px;
+    font-size: 15px;
 }
 
 footer {
@@ -227,5 +228,8 @@ footer > p {
     #action > div {
         flex-direction: column;
         gap: 20px;
+    }
+    #action > div > p {
+        text-align: center;
     }
 }
