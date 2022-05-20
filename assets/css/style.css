@@ -63,6 +63,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100vw;
+    z-index: 150;
 
 }
 #nav-content {
@@ -155,8 +156,9 @@ height: 100%;
 #news > div{
     display: flex;
 }
-#news > div> img{
+#news > div> div >img{
     object-fit: cover;
+
 }
 #news > div > div{
     padding: 70px
@@ -202,6 +204,7 @@ height: 100%;
 
 #news > div > *{
     width: 50%;
+    overflow: hidden;
 }
 
 .groupe1{
@@ -210,6 +213,19 @@ height: 100%;
 
 .groupe2{
     background-color:#F3F3F3;
+}
+.image{
+    transform: scale (1);
+    width: 100%;
+    height: 100%;
+    transition:0.3s ease-in-out;
+}
+.image:hover{
+    transform: scale(1.15);
+    z-index: 0;
+}
+.containerImg{
+    padding: 0px !important;
 }
 
 #news > div:nth-child(2){
