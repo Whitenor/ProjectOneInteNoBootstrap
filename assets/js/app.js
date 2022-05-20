@@ -15,7 +15,7 @@ if (window.innerWidth <= '1024') {
 window.onscroll = () => {
     var scrolling= window.scrollY;
     var viewportHeight = window.innerHeight;
-    if(scrolling >= viewportHeight - 100  ){
+    if(scrolling >= viewportHeight - 100 ){
       document.getElementsByTagName('nav')[0].classList.add('bgNav')
     }else{
       document.getElementsByTagName('nav')[0].classList.remove('bgNav')
