@@ -50,10 +50,13 @@ html{
 }
 
 #nav-content > ul > li, #socials > i {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 #nav-content > ul > li:hover, #socials > div > i:hover {
     border-bottom:#d21242  solid 2px;
+}
+#nav-content > ul > li > a:hover{
+    transform: scale(1.15)
 }
 #nav-content > ul {
     display: flex;
@@ -63,7 +66,6 @@ html{
     list-style: none;
     font-family: "myriad pro regular";
     margin:0 1.5vw;
-    border-bottom: solid 2px transparent;
     height: 100%;
     display:flex;
     align-items: center;
@@ -284,7 +286,7 @@ header > a {
 }
 
 #news > div > div > h3{
-    font-family: "gotham book";
+    font-family: "gotham medium";
     
 }
 
