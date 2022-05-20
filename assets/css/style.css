@@ -274,10 +274,6 @@ header > a {
     line-height: 36px;
 }
 /* ******************************** News ******************************** */
-#news{
-    margin-top: 10vh;
-}
-
 #news > div{
     display: flex;
 }
