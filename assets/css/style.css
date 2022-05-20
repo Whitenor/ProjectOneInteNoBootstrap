@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {
+    font-family:'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+} 
+
+@font-face{
+    font-family: 'Gotham Light';
+    src: url('../fonts/gotham/Gotham-Light.otf')
+}
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../fonts/gotham/GothamBold.ttf')
 @font-face {
     font-family: "myriad pro regular";
     src: url("../fonts/MYRIADPRO-REGULAR.OTF");
@@ -93,11 +107,7 @@ height: 100%;
     font-family:'Roboto Bold';
     font-weight: 700;
     font-size: 30px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #d21242;
+      background: #d21242;
     width: 65px;
     height: 65px;
     box-shadow: 12px 12px 0px -3px #f5f5f5a9
@@ -148,7 +158,121 @@ height: 100%;
     width: 30vw;
     justify-content: space-between;
 }
+  /* ******************************** Header ******************************** */
+header{
+    min-height:100vh;
+    width: 100%;
+    background: url('../img/backgroundHeader.png') no-repeat border-box;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+header > div {
+    color: #fff;
+}
+#creatives{
+    font-family: 'Gotham Light';
+    font-weight: 700;
+    font-size:100px;
+    margin-bottom: 17.5vh;
+    margin-top: 50vh ;
+    color: #f5f5f5;
+}
+#labelCTA{
+    font-family: "Open Sans" , sans-serif;
+    color: white;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+header > a {
+    text-decoration: none;
+}
+.fa-angle-down{
+    font-size: 20px;
+    color: #f5f5f5;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 50px;    
+    transform: rotate(0deg);
+    transition:  all 0.5s ease;
+}
+.fa-angle-down:hover{
+    transform: rotate(180deg);
+    color: #D21242;
+    border: solid 1px #D21242;
+}
 
+
+/* ****************************** About ********************************** */
+
+
+#about{
+    min-height: 80vh;
+    background: #D21242;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 13.63% 100px 13.63%;
+}
+#about > *{
+    color: #f5f5f5;
+    font-family: 'Gotham Light';
+}
+#about > span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh 0 20vh 0;
+}
+#about > span > h3{
+    position: absolute;
+    font-size: 247px;
+    font-weight: 600;
+    opacity: 30%;
+    font-family: 'Roboto', sans-serif;
+}
+#about > span >h2{
+    z-index: 2;
+    text-align: center;
+}
+#about > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 30vh;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+#about > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+}
+#about > div > div > p{
+    width: 80%;
+    text-align: center;
+    font-size:15px;
+    line-height: 24px;
+    font-family: 'Gotham Light';
+}
+#about > div > div > h4 {
+    margin: 7vh 0 3vh 0;
+    font-size: 18px;
+    line-height: 36px;
+}
+/* ******************************** News ******************************** */
 #news{
     margin-top: 10vh;
 }
@@ -231,6 +355,73 @@ height: 100%;
 #news > div:nth-child(2){
     flex-direction: row-reverse;
 }
+
+/* ******************************** Blog ******************************** */
+#blog{
+    min-height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 13.63vw;
+}
+#blog > div:nth-child(1){
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blog > div:nth-child(1) > h3 {
+    color: #D21242;
+    font-family: 'Roboto', sans-serif;
+    font-size: 247px;
+    line-height: 211px;
+    font-weight: 900;
+    position: absolute;
+}
+#blog > div:nth-child(1) > h2 {
+    font-family: 'Gotham Bold', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #222222;
+    z-index: 2;
+}
+#blog > h4{
+    margin: 100px 0;
+    font-family: 'Gotham Light', sans-serif;
+    line-height: 37px;
+    font-size: 30px;
+    text-align: center;
+}
+#blog > div:nth-child(3){
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#blog > div:nth-child(3) > div{
+    width: 270px;
+    display: flex;
+    min-height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+#blog > div:nth-child(3) > div >  img {
+    width: 100%;
+    height: auto;
+}
+#blog > :nth-child(3) > div > p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ******************************** Quick Action area ******************************** */
+
 #action{
     display: flex;
     justify-content:space-between;
@@ -275,8 +466,11 @@ footer > p {
         margin-bottom: 10px;
     }
 }
-@media all and (max-width: 1024px) {
-    nav{
+@media screen and (max-width: 1024px) {
+    #creatives{
+        font-size: 75px;
+    }
+  nav{
         justify-content: flex-end;
     }
     #burger{
@@ -315,8 +509,11 @@ footer > p {
         font-size: 50px;
     } 
 }
-@media all and (max-width:510px){
-    footer{
+@media screen and (max-width: 510px) {
+    #creatives{
+        font-size: 55px;
+    }
+  footer{
         flex-direction: column;
         padding: 50px 0;
     
@@ -329,5 +526,3 @@ footer > p {
         text-align: center;
     }
 }
-
-
