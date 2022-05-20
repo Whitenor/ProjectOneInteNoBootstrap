@@ -41,6 +41,10 @@ body{
     width: 100% !important;
     overflow: hidden !important;
 }
+.bgNav{
+    background-color: rgba(0, 0, 0, 0.199);
+    backdrop-filter: blur(5px);
+}
 html{
     scroll-behavior: smooth;
 }
@@ -73,8 +77,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0 13.63%;
-    background-color: rgba(0, 0, 0, 0.199);
-    backdrop-filter: blur(5px);
     height:10vh ;
     border-bottom: solid 1px rgba(255, 255, 255, 0.281);
     position: fixed;
