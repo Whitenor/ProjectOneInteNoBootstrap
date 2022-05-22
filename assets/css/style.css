@@ -153,8 +153,8 @@ height: 100%;
 #nav-content-mobile > #socials{
     height: 15vh;
     font-size: 15px;
-    width: 30vw;
-    justify-content: space-between;
+    width: 100vw;
+    justify-content: space-evenly;
 }
   /* ******************************** Header ******************************** */
 header{
@@ -508,9 +508,6 @@ footer > p {
         font-size: 50px;
         align-items: flex-start;
     }
-    #nav-content-mobile > ul, #nav-content-mobile > div{
-        margin-left: 20vw;
-    } 
 }
 @media screen and (max-width: 510px) {
     #creatives{

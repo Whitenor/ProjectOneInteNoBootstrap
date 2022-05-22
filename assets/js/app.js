@@ -5,8 +5,8 @@ document.getElementsByClassName('fa-xmark')[0].addEventListener('click', functio
     document.getElementById('nav-content-mobile').classList.remove('open');
 })
 if (window.innerWidth <= '1024') {
-    document.getElementsByClassName('groupe1')[0].setAttribute('data-aos', 'fade-right');
-    document.getElementsByClassName('groupe2')[0].setAttribute('data-aos', 'fade-right');
+    document.querySelector('.groupe1').setAttribute('data-aos', 'fade-right');
+    document.querySelector('.groupe2').setAttribute('data-aos', 'fade-right');
     var boucle = document.querySelectorAll('.containerImg');
     for (let i = 0; i < boucle.length; i++) {
         document.querySelectorAll('.containerImg')[i].setAttribute('data-aos', 'fade-right');
