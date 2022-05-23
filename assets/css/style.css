@@ -34,10 +34,6 @@ body{
     padding: 0;
     margin: 0;
 }
-.open{
-    width: 100% !important;
-    overflow: hidden !important;
-}
 .bgNav{
     background-color: rgba(0, 0, 0, 0.199);
     backdrop-filter: blur(5px);
@@ -121,6 +117,7 @@ height: 100%;
     height: 100vh;
     top: 0;
     left: 0;
+    padding: 0 13.63vw;
     background: #D21242;
     transition: all 0.5s ease 0s;
     overflow: hidden;
@@ -137,9 +134,10 @@ height: 100%;
     right:50px;
     filter: drop-shadow(0 0 0.75rem black);
     font-size: 30px;
-    
 }
-
+#nav-content-mobile > ul {
+    padding-left: 0;
+}
 #nav-content-mobile > ul > li {
     list-style: none;
     margin-top: 15px;
@@ -153,8 +151,8 @@ height: 100%;
 #nav-content-mobile > #socials{
     height: 15vh;
     font-size: 15px;
-    width: 100vw;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: space-between;
 }
   /* ******************************** Header ******************************** */
 header{
@@ -460,6 +458,19 @@ footer > p {
     color: white;
     font-family: 'Roboto', serif;
 }
+
+
+/* ********************************** Ouverture/ Fermeture du menu ****************************** */
+
+.open{
+    width: 100% !important;
+    overflow: hidden !important;
+}
+.close{
+    padding: 0 !important;
+    width: 0% !important;
+}
+
 @media all and (max-width:1300px) {
     .groupe1 > p:nth-child(3) {
         margin-bottom: 10px;
