@@ -14,19 +14,6 @@
     font-family: "myriad pro regular";
     src: url("../fonts/MYRIADPRO-REGULAR.OTF");
 }
-@font-face {
-    font-family: "Roboto Bold";
-    src: url("../fonts/Roboto-Bold.ttf");
-}
-@font-face {
-    font-family: "gotham medium";
-    src: url("../fonts/Gotham-Light.otf")
-}
-@font-face {
-    font-family: "gotham book";
-    src: url("../fonts/GothamBook.ttf")
-}
-
 *{
     box-sizing: border-box;
 }
@@ -281,7 +268,7 @@ header > a {
 }
 
 #news > div > div > h3{
-    font-family: "gotham medium";
+    font-family: "Gotham Light";
     
 }
 
@@ -297,23 +284,23 @@ header > a {
 .texte1{
     margin: 30px 0px;
     
-    font-family: "gotham medium";
+    font-family: "Gotham Light";
     text-align: justify;
     color: white;
 }
 .texte{
-    font-family: "gotham medium";
+    font-family: "Gotham Light";
     text-align: justify;
     color: white;
 }
 .texte0{
-    font-family: "gotham medium";
+    font-family: "Gotham Light";
     text-align: justify;
     color: black;
 }
 .texte2{
     margin: 30px 0px;
-    font-family: "gotham medium";
+    font-family: "Gotham Light";
     text-align: justify;
     color: black;
 }
@@ -440,7 +427,7 @@ header > a {
 #action > div > p {
     margin-left: 21px;
     color: white;
-    font-family: "gotham medium";
+    font-family: "Gotham Light";
     font-size: 15px;
 }
 
